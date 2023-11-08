@@ -12,7 +12,7 @@ body {
   justify-content: space-between;
 }
 
-.logo {
+.logoo {
   width: 129px;
   padding-left: 140px;
 }
@@ -74,6 +74,12 @@ body {
   text-decoration: none;
   color: white;
   padding: 10px;
+}
+.menu ul li a:hover {
+  text-decoration: none;
+  color: black;
+  padding-top: 5.5px;
+  background-color: white;
 }
 /* end menu */
 /* banner ảnh */
