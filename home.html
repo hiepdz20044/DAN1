@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/css/all.css">
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div>
+                <a href="home.html"><img class="logo" src="/img/logo.jpg" alt="logo" class="logo"></a>
+            </div>
+
+            <div class="search">
+                <input type="text" placeholder="Tìm kiếm">
+                <button><i class="fa-solid fa-magnifying-glass fa-lg" style="color: #000000;"></i></button>
+            </div>
+
+            <div class="icon-phone">
+                <i class="fa-solid fa-phone fa-xl" style="color: #ffffff;"></i>
+            </div>
+
+            <div class="phone">
+                <p>
+                    Gọi nhanh<br>
+                    0888.425.100
+                </p>
+            </div>
+
+            <div class="user">
+                <a href="#"><i class="fa-regular fa-user fa-xl" style="color: #ffffff;"></i></a>
+            </div>
+
+            <div class="cart">
+                <a href="#"><i class="fa-solid fa-cart-shopping fa-xl" style="color: #ffffff;"></i></a>
+            </div>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="home.html"><i class="fa-solid fa-house fa-xl"></i></a></li>
+                    <li><a href="#">Thương hiệu</a></li>
+                    <li><a href="#">Đồng hồ nam</a></li>
+                    <li><a href="#">Đồng hồ nữ</a></li>
+                    <li><a href="#">Đồng hồ đôi</a></li>
+                    <li><a href="#">Đồng hồ treo tường</a></li>
+                    <li><a href="#">Đồng hồ treo tường</a></li>
+                    <li><a href="#">Dây đồng hồ</a></li>
+                    <li><a href="#">Sửa đồng hồ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="banneranh">
+        <img class="slide" src="/img/banner1.jpg" alt="Image 1">
+        <img class="slide" src="/img/banner2.jpg" alt="Image 2">
+      </div>
+
+    <div id="bannerchu">
+        <span>Chào bạn đến với DDH-08 Store!</span>
+    </div>
+
+
+    <div class="gallery">
+    
+
+        <div class="image-container1">
+          
+          <a href="#"><img class="image" src="/img/tintuc1.jpg" alt="Image 1"></a>
+          <a href="#"><img class="image" src="/img/tintuc2.jpg" alt="Image 2"></a>
+        </div>
+    
+        <div class="image-container2">
+          
+            <a href="#"><img class="image" src="/img/thuonghieu1.jpg" alt="Image 3"></a>
+            <a href="#"><img class="image" src="/img/thuonghieu1.jpg" alt="Image 4"></a>
+            <a href="#"><img class="image" src="/img/thuonghieu1.jpg" alt="Image 5"></a>
+            <a href="#"><img class="image" src="/img/thuonghieu1.jpg" alt="Image 6"></a>
+            <a href="#"><img class="image" src="/img/thuonghieu1.jpg" alt="Image 7"></a>
+        </div>
+      </div>
+
+
+    <div id="bannerduoi">
+        <img id="currentImagee" src="/img/bannerduoi1.jpg" alt="Image 1">
+    </div>
+    <div class="thumbnail-container">
+        <button onclick="previousImage()">&#8249;</button>
+        <button onclick="changeImage(0)">1</button>
+        <button onclick="changeImage(1)">2</button>
+        <button onclick="changeImage(2)">3</button>
+        <button onclick="changeImage(3)">4</button>
+        <button onclick="changeImage(4)">5</button>
+        <button onclick="changeImage(5)">6</button>
+        <button onclick="changeImage(6)">7</button>
+        <button onclick="nextImage()">&#8250;</button>
+    </div>
+</body>
+<script src="home.js"></script>
+</html>
