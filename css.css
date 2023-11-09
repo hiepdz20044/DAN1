@@ -12,7 +12,7 @@ body {
   justify-content: space-between;
 }
 
-.logoo {
+.logo {
   width: 129px;
   padding-left: 140px;
 }
@@ -211,4 +211,231 @@ h1 {
 
 .image:hover {
   transform: scale(1.05);
+}
+/* end tin tuc va thuong hieu */
+/* Chi tiet san pham */
+.product-image {
+  width: 400px;
+  height: auto;
+  margin-left: 300px;
+  margin-top: 40px;
+}
+
+.product-info {
+  margin-top: 20px;
+}
+
+.product-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-left: 100px;
+  width: 400px;
+}
+
+.product-price {
+  font-size: 18px;
+  color: #888;
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
+
+.product-description {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+
+/* Modal styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 800px;
+  width: 100%;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #888;
+  cursor: pointer;
+}
+.btn-primary {
+  margin-left: 100px;
+}
+
+.buy{
+  margin-left: 0px;
+}
+.xem{
+  margin-left: 540px;
+  margin-top: 5px;
+  background-color: white;
+}
+.xem:hover{
+  background-color: rgb(169, 169, 169);
+}
+/* Hướng dẫn sử dụng */
+.list-group {
+display: flex;
+flex-direction: row;
+gap: 10px;
+}
+
+.list-group button {
+display: block;
+padding: 10px;
+text-align: left;
+background-color: #f8f9fa;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+.list-group button:hover {
+background-color: #e9ecef;
+}
+
+.card {
+border: 1px solid #ced4da;
+border-radius: 5px;
+}
+
+.card-header {
+background-color: #f8f9fa;
+padding: 10px;
+border-bottom: 1px solid #ced4da;
+}
+
+.card-body {
+padding: 10px;
+}
+
+.card-title {
+margin-top: 0;
+}
+
+.hidden {
+display: none;
+}
+/* Hướng dẫn sử dụng */
+/* hình ảnh liên quan */
+.modal-body{
+  width: 800px;
+  height: 370px;
+}
+.carousel-inner .carousel-item .img-fluid{
+  width: 750px;
+  height: 340px;
+}
+.modal-content {
+  overflow-y: none;
+}
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+}
+.carousel-indicators li{
+  margin-left: 100px;
+  width: 40px;
+  margin-top: -70px;
+  color: white;
+}
+.xem2{
+  margin-left: 450px;
+  margin-top: -64px;
+  background-color: white;
+}
+.xem2:hover{
+  background-color: rgb(148, 148, 148);
+}
+/* Bình luận */
+.bl{
+  margin-left: 590px;
+}
+/* CSS cho phần sắp xếp bình luận */
+.sort-options {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.sort-options label {
+  margin-right: 1rem;
+}
+
+/* CSS cho danh sách bình luận */
+#commentList {
+  margin-top: 2rem;
+}
+
+#commentList h3 {
+  margin-bottom: 1rem;
+}
+
+#comments {
+  margin-top: 1rem;
+  list-style: none;
+}
+
+.comment-item {
+  padding: 1rem;
+  background-color: #f5f5f5;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
+.comment-item h5 {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.comment-item p {
+  margin-bottom: 0.5rem;
+}
+
+.comment-item img {
+  max-width: 200px;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+}
+
+#commentCount {
+  margin-top: 1rem;
+}
+/* Sản phẩm liên quan */
+.col-md-2 .cart p{
+  padding: 0px;
+  margin: 0px;
+}
+.ct{
+  margin-left: 0px;
 }
